@@ -4,18 +4,22 @@ body {
     padding: 20px;
     padding-top: 60px;
     min-height: 100vh;
+    background-image: url('http://www.wallpaperbetter.com/wallpaper/551/820/956/trees-grass-fields-green-1080P-wallpaper-middle-size.jpg');
+    background-size: cover;
 }
 
 #selectBreed,
 #viewDog {
     padding: 8px;
-    font-size: 18px;
+    font-size: 28px;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
     border: 1px solid #aaa;
     border-radius: 0px;
-    font-family: serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    margin-top: 45px;
 }
 
 #selectBreed {
@@ -25,18 +29,44 @@ body {
     background-repeat: no-repeat;
     width: 200px;
     cursor: s-resize;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.411);
 }
 
 #viewDog {
     cursor: pointer;
-    background-color: #ccc;
+    background-color: rgb(56, 15, 238);
     letter-spacing: 2px;
+    margin-left: 35px;
+    box-shadow: 0 9px rgba(0, 0, 0, 0.534);
+    border-radius: 15px;
+}
+
+#viewDog:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 #breedImage {
     padding: 15px;
-    margin: 20px;
+    margin: 30px;
     border: 3px solid #555;
     box-shadow: 0 15px 30px -10px #000;
     background-color: #eee;
+}
+
+.mainTitle, .subTitle {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.subTitle {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mainTitle {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.61);
+    letter-spacing: 3px;
 }
